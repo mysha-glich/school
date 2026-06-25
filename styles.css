@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+body{
+    background-color: aqua;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(161, 250, 220);
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: center;
+    padding-left: 3em;
+    padding-right: 5em;
+    position:fixed;
+    top: 0;
+}
+  
+.logo{
+    display: flex;
+    flex-direction: row;
+    color: rgb(210, 99, 180);
+    justify-content: space-around;
+    gap: 20em;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+a{
+    color: rgb(159, 104, 210);
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5em;
+}
+
+a:hover{
+    text-decoration:overline ;
+    color: blueviolet;
+
+}
+
+#Home{
+    height: 100vh;
+    width:100%;
+    
+    padding-top: 8em;
+}
+
+#About{
+    height: 100vh;
+    width:100%;
+   
+}
+
+#Course{
+    height: 100vh;
+    width:100%;
+    
+}
+
+#Contact{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.Home-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+    padding: 2em;
+    gap:4em ;
+}
+
+.image{
+    width: 50%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.Text{
+    width: 50%;
+    height: 100%;
+    font-size: 1.2em;
+    text-align: justify;
+
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+
